@@ -1,12 +1,11 @@
 import { Outlet } from "react-router-dom";
-
-function App() {
+function Auth() {
   return (
-    <div className="App">
-      <h1>QUETE</h1>
+    <div>
+      <h1>Authentification</h1>
       <Outlet />
     </div>
   );
 }
 
-export default App;
+export default Auth;
